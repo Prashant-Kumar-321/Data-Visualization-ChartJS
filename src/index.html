@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price History</title>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-neutral-700">
+    <h1 class="text-xl font-bold p-5 text-white bg-black text-center">Price History of Product Item</h1>
+
+    <section class="sm:p-0 p-4">
+        <div  id="canvas-container" class="sm:mx-auto mt-5 w-full sm:w-3/4 p-2 sm:p-5 border-4 border-pink-600 rounded-lg shadow-xl shadow-gray-400 flex justify-center items-center  bg-white">
+            <canvas id="price-history" class="hover:cursor-grab w-100"></canvas>
+        </div>
+    </section>
+
+    <script type="module" src="./price-history.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
